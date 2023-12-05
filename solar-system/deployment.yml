@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: mdhack/strategy:v2
+      - image: mdhack/strategy:v1
         name: solar-system
         imagePullPolicy: Always
         ports: 
